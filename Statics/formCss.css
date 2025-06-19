@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(103, 136, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+form{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 50%; 
+    height: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap; 
+}
+button{
+    background-color: #8cc566;
+    border:none;
+}
+#captchadiv{
+    background-color: #8cc566;
+    width: 300px; 
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column; 
+    justify-content: center;
+    align-items: center;
+}
+.acomodar{
+    display: flex;
+    flex-wrap: raw;
+}
